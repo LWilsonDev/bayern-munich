@@ -1,36 +1,138 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans|Roboto:400,700');
+
+/*colours*/
+
+.bg-blue{
+    background-color: #4286f4;
+    color: #fff;
+}
+
+.bg-black{
+    background-color: #000;
+    color: #fff;
+}
+
+.bg-pale{
+    background-color: #cfe0fc;
+}
+
+.bg-red {
+    background-color: #ec0019;
+}
+
+.bg-white{
+    background-color: #fff;
+}
+
+.hr-blue{
+    width: 80px;
+    height: 8px;
+    background-color: #4286f4;
+    border: solid 2px white;
+    margin: 30px auto;
+}
+
+p{
+    font-family: 'Open Sans', sans-serif;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Roboto', sans-serif;
+    text-transform: uppercase;
+}
 
 
-.signup {
+.join-us {
     position: absolute;
     right: 10px;
     top: 10px;
+    border: 2px solid white;
 }
 
-.bg{
-    background-image: url("images/football.jpg");
-
-    background-repeat: no-repeat;
-    background-position: bottom;
-    background-size: cover;
+.sign-up{
+    border: 2px solid white;
+    margin: 30px auto;
 }
 
-.main-intro {
-    background-color: transparent;
+.nav {
+    position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 1;
 }
+  
 
-.round-pic{
-    height: 160px;
-    width: 160px;
+.round-logo{
+    height: 200px;
+    width: 200px;
+    position: relative;
+    margin: 40px auto;
     border-radius: 100%;
     -webkit-box-shadow: -9px 13px 28px -2px rgba(66,61,66,0.7);
     -moz-box-shadow: -9px 13px 28px -2px rgba(66,61,66,0.7);
     box-shadow: -9px 13px 28px -2px rgba(66,61,66,0.7);
 }
 
+
+.nav-white{
+    font-size: 20px;
+    text-transform: uppercase;
+    font-weight: bold;
+    letter-spacing: 2px;
+    margin: 0 20px;
+    color: #ffffff;
+}
+
+.main-intro {
+    background-color: transparent;
+    width:100%;
+    height: 75%;
+    margin: 0 auto;
+    color: #fff;
+}
+
+.title{
+    letter-spacing: 2px;
+    font-weight: bold;
+}
+
+.round-pic{
+    height: 160px;
+    width: 160px;
+    margin: 40px auto 60px auto;
+    border-radius: 100%;
+    -webkit-box-shadow: -9px 13px 28px -2px rgba(66,61,66,0.7);
+    -moz-box-shadow: -9px 13px 28px -2px rgba(66,61,66,0.7);
+    box-shadow: -9px 13px 28px -2px rgba(66,61,66,0.7);
+}
+
+.full-width-img{
+    height: 300px;
+     width:100%;
+    background-repeat: no-repeat;
+}
+
+.banner{
+    width: 100%;
+    height: 300px;
+    background-image: url("images/stadium.jpeg");
+    background-position: bottom;
+    background-size: cover;
+}
+
+.logo {
+     background-image: url("images/logo.png");
+     background-position: center;
+     background-size: cover;
+}
+
 .uk {
      background-image: url("images/uk-flag.png");
      background-position: center;
-     background-size: 220%;
+     background-size: cover;
+     
+     
 }
 
 .fest {
@@ -38,5 +140,39 @@
     background-position: center;
     background-repeat: no-repeat;
     background-size: 80%;
+}
+
+.game {
+    background-image: url("images/game.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.facebook-container{
+    display: inline-block;
+    text-align: center;
+}
+
+.facebook{
+    height: 600px;
+    width: 90%;
+}
+
+/*Media Queries*/
+
+@media (min-width: 768px){
+    .banner{
+        height: 460px;
+    }
+    
+}
+
+
+@media (min-width: 992px){
+    .banner{
+        height: 600px;
+    }
+    
     
 }
