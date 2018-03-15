@@ -2,6 +2,10 @@
 
 /*colours*/
 
+body{
+    background-color: #ec0019;
+}
+
 .bg-blue{
     background-color: #4286f4;
     color: #fff;
