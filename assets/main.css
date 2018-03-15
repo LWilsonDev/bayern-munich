@@ -74,7 +74,11 @@ h1, h2, h3, h4, h5, h6 {
   right: 0;
   z-index: 1;
 }
-  
+
+.n-icon {
+    z-index: 2;
+    
+}  
 
 .round-logo{
     height: 200px;
@@ -94,7 +98,6 @@ h1, h2, h3, h4, h5, h6 {
     font-weight: bold;
     letter-spacing: 2px;
     margin: 0 20px;
-    color: #ffffff;
 }
 
 .main-intro {
@@ -184,23 +187,28 @@ h1, h2, h3, h4, h5, h6 {
    margin: 10px auto 40px auto;
 }
 
-.signup-form{
-    width: 80%;
-    height: auto;
-    margin: 20px auto;
+ #mc_embed_signup {
+    background: #fff;
+    clear: left;
+    font: 12px 'Open Sans', sans-serif;
+    width: 95%;
+    margin: 8px;
+              }
+
+.signup-container{
+    margin-bottom: 40px;
 }
 
-#mc_embed_signup {
-                                    background: #fff;
-                                    clear: left;
-                                    font: 14px Helvetica, Arial, sans-serif;
-                                }
 
 /*Media Queries*/
 
 @media (min-width: 768px){
     .banner{
         height: 460px;
+    }
+    
+    .signup-form{
+        width: 70%;
     }
 }
 
@@ -215,6 +223,8 @@ h1, h2, h3, h4, h5, h6 {
     margin-right: 40px;
 }
 
-
+.signup-container{
+    margin-top: 100px;
+}
     
 }
