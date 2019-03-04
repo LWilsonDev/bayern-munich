@@ -211,6 +211,11 @@ h1, h2, h3, h4, h5, h6 {
 .facebook{
    margin: 10px auto 40px auto;
 }
+.fb-page {
+    margin-bottom:60px;
+}
+
+
 
 
 #mc_embed_signup {
@@ -235,6 +240,11 @@ h1, h2, h3, h4, h5, h6 {
     .signup-form{
         width: 70%;
     }
+    
+    .fb-page {
+    margin-top:70px;
+}
+
 }
 
 
