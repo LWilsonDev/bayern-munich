@@ -67,8 +67,8 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .container-fluid{
-    width:100%; 
-  overflow:hidden; 
+    width:100%;
+  overflow:hidden;
 }
 
 .join-us {
@@ -102,8 +102,8 @@ h1, h2, h3, h4, h5, h6 {
 
 .n-icon {
     z-index: 2;
-    
-}  
+
+}
 
 .round-logo{
     height: 200px;
@@ -181,8 +181,8 @@ h1, h2, h3, h4, h5, h6 {
      background-image: url("images/uk-flag.png");
      background-position: center;
      background-size: cover;
-     
-     
+
+
 }
 
 .fest {
@@ -224,7 +224,7 @@ h1, h2, h3, h4, h5, h6 {
     font: 14px Helvetica, Arial, sans-serif;
 }
 
-            
+
 .signup-container{
     margin-bottom: 40px;
 }
@@ -236,11 +236,11 @@ h1, h2, h3, h4, h5, h6 {
     .banner{
         height: 460px;
     }
-    
+
     .signup-form{
         width: 70%;
     }
-    
+
     .fb-page {
     margin-top:70px;
 }
@@ -252,7 +252,7 @@ h1, h2, h3, h4, h5, h6 {
     .banner{
         height: 600px;
     }
-    
+
     .facebook{
     margin-top: 100px;
     margin-right: 40px;
@@ -261,5 +261,5 @@ h1, h2, h3, h4, h5, h6 {
 .signup-container{
     margin-top: 100px;
 }
-    
+
 }
